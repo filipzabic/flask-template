@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+
+{% block body %}
+
+<nav class="container">
+  <ul>
+    <li><strong>Brand</strong></li>
+  </ul>
+  <ul>
+    <li><a href="/logout" role="button">Logout</a></li>
+  </ul>
+</nav>
+
+<main class="container" style="padding-top: 0;">
+  <div class="grid">
+
+    <div style="text-align: center;">
+      <article>
+        <h3>Test1</h3>
+      </article>
+    </div>
+
+    <div style="text-align: center;">
+      <article>
+        <h3>Test2</h3>
+      </article>
+    </div>
+
+  </div>
+</main>
+
+{% endblock %}
